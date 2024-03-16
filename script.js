@@ -437,7 +437,7 @@ function mediaQueryfunction(width) {
       Menu.childNodes[3].classList.remove("bar2");
       Menu.lastElementChild.classList.remove("bar3");
       document.querySelector(".menu").classList.remove("active");
-      window.scrollBy(0, Content4.getBoundingClientRect().top - 60);
+      window.scrollBy(0, Content4.getBoundingClientRect().top - 59);
       RevealAnimationPhone();
     });
     HomePageAnimations();
